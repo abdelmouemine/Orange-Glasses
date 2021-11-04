@@ -12,7 +12,7 @@ html{
 
 header{
     width: 100%;
-    height: 400vh;
+    height: 150vh;
     position: relative;
 
 }
@@ -255,112 +255,7 @@ text-align: center;
     
     
 }
-@media screen and (max-width: 900px){
-   
-   .logo{
-       padding: 1.5rem;
-   }
-   nav ul{
-       height: 5rem;
-       font-size: 1.4rem;
-   }
-   nav ul li{
-       padding: 0 1.5rem;
-       line-height: 5rem;
-   }
-   
-   
-    .tone-2 img{
-        left: -2rem;
 
-    }
-    .product-info p{
-        font-size: 1.8rem;
-    margin-bottom: 4rem;
-    text-align: center;
-    position: absolute;
-    left: 1%;
-    right: 1%;
-    top: 11%;
-    z-index: 1000;
-
-    }
-
-}
-@media screen and (max-width: 900px){
-    .tone-2 img{
-        left: -50%;
-        position: absolute;
-        top: 20%;
-    }
-    .product-info p{
-        font-size: 1.2rem;
-    }
-    .btn{
-        padding: 1rem;
-
-    }
-    nav{
-        display: flex;
-        border-bottom: none;
-        flex-direction: column;
-        width: 25rem;
-        height: 100vh;
-        background-color: #E5E5E5;
-        justify-content: space-between;
-        transform: translateX(-25rem);
-        transition: transform .5s;
-    }
-    nav ul{
-        height: initial;
-        display: block;
-        font-size: 2rem;
-        text-align: center;
-    }
-    nav ul li{
-        padding: 0;
-        line-height: initial;
-        margin-bottom: 2rem;
-    }
-    .logo{
-        padding: 0;
-
-    }
-    .nav-right ul li,
-    .nav-right ul li:nth-child(1){
-         border: none;
-    }
-    .menu-toggle{
-        display: flex;
-    }
-    .fa-times{
-        display: block;
-        position: absolute;
-        top: 2rem;
-        height: 2rem;
-    }
-    .active{
-        transform: translateX(0);
-
-    }
-
-    .overlay{
-        position: absolute;
-        width: 0;
-        height: 100vh;
-        background-color: rgba(0, 0, 0, .8);
-        z-index: 998;
-        opacity: 0;
-        transition: opacity .5s;
-    }
-    
-    .overlay .menu-open{
-        width: 100%;
-        opacity: 1;
-    }
-   
-   
-} 
 .second-main{
         position: absolute;
         display: flex;
@@ -368,6 +263,7 @@ text-align: center;
         left: 0;
         right: 0;
         bottom: 0;
+     
 }
 .main-left{
     background-color: #E5E5E5;
@@ -414,6 +310,168 @@ text-align: center;
     font-family: 'Work Sans';
     line-height: 2;
 }
+.promo{
+
+    background-color: #F2F2F2;
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    top: 150%;
+    
+}
+
+.promo h4{
+    font-size: 15rem;
+    position: absolute;
+    font-family: 'Work Sans';
+    text-align: center;
+    left: 23%;
+    top: 10%;
+}
+
+.left {
+    position: absolute;
+    width: 76%;
+    left: -40%;
+    bottom: 5%;
+    opacity: 50%;
+}
+
+.right{
+    position: absolute;
+    width: 76%;
+    bottom: 3%;
+    right: 0%;
+    opacity: 50%;
+}
+.buy-info{
+    display: flex;
+    
+    
+}
+
+.buy-btn{
+    z-index: 1000;
+    position: absolute;
+    padding: 2% 15%;
+    border-radius: 4px;
+    top: 60%;
+    left: 25%;
+    font-size: 5rem;
+    border: solid ;
+
+}
+.buy-btn:hover {  
+    box-shadow: 3px 1rem 2rem rgba(0, 0, 0, .3);
+    transform: translateY(-1rem);
+}
+@media screen and (max-width: 900px){
+   
+    .logo{
+        padding: 1.5rem;
+    }
+    nav ul{
+        height: 5rem;
+        font-size: 1.4rem;
+    }
+    nav ul li{
+        padding: 0 1.5rem;
+        line-height: 5rem;
+    }
+    
+    
+     .tone-2 img{
+         left: -2rem;
+ 
+     }
+     .product-info p{
+         font-size: 1.8rem;
+     margin-bottom: 4rem;
+     text-align: center;
+     position: absolute;
+     left: 1%;
+     right: 1%;
+     top: 11%;
+     z-index: 1000;
+ 
+     }
+ 
+ }
+ @media screen and (max-width: 900px){
+     .tone-2 img{
+         left: -50%;
+         position: absolute;
+         top: 20%;
+     }
+     .product-info p{
+         font-size: 1.2rem;
+     }
+     .btn{
+         padding: 1rem;
+ 
+     }
+     nav{
+         display: flex;
+         border-bottom: none;
+         flex-direction: column;
+         width: 25rem;
+         height: 100vh;
+         background-color: #E5E5E5;
+         justify-content: space-between;
+         transform: translateX(-25rem);
+         transition: transform .5s;
+     }
+     nav ul{
+         height: initial;
+         display: block;
+         font-size: 2rem;
+         text-align: center;
+     }
+     nav ul li{
+         padding: 0;
+         line-height: initial;
+         margin-bottom: 2rem;
+     }
+     .logo{
+         padding: 0;
+ 
+     }
+     .nav-right ul li,
+     .nav-right ul li:nth-child(1){
+          border: none;
+     }
+     .menu-toggle{
+         display: flex;
+     }
+     .fa-times{
+         display: block;
+         position: absolute;
+         top: 2rem;
+         height: 2rem;
+     }
+     .active{
+         transform: translateX(0);
+ 
+     }
+ 
+     .overlay{
+         position: absolute;
+         width: 0;
+         height: 100vh;
+         background-color: rgba(0, 0, 0, .8);
+         z-index: 998;
+         opacity: 0;
+         transition: opacity .5s;
+     }
+     
+     .overlay .menu-open{
+         width: 100%;
+         opacity: 1;
+     }
+    
+    
+ } 
+
 @media screen and (max-width: 1200px){
 .product-info2 h1{
     font-size: 3rem;
@@ -433,34 +491,4 @@ text-align: center;
         font-size: 1rem;
     }
 }
-.promo{
 
-    background-color: rgb(170, 170, 170);
-    position: relative;
-   
-    width: 100%;
-    height: 100vh;
-    top: 46%;
-    
-}
-
-.promo h4{
-    font-size: 20rem;
-    position: absolute;
-    font-family: 'Work Sans';
-    text-align: center;
-    left: 15%;
-}
-.left {
-    position: absolute;
-    width: 76%;
-    left: -40%;
-    bottom: -10%;
-}
-
-.right{
-    position: absolute;
-    width: 76%;
-    bottom: -10%;
-    right: -40%;
-}
