@@ -59,11 +59,12 @@ nav{
     width: 5rem;
     box-sizing: content-box;
     padding-left: 3rem;
+
 }
 .logo img{
     display: block;
     width: 300%;
-    margin-left: -33rem;
+    margin-left: -11rem;
 }
 
 nav ul{
