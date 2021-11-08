@@ -444,8 +444,6 @@ text-align: center;
         height: 100vh;
         background-color: #E5E5E5;
         justify-content: space-between;
-        z-index: 100000;
-        position: fixed;
         display: none;
         
     }
@@ -577,3 +575,21 @@ text-align: center;
 }
 
 /*end media*/
+footer{
+    height: 10vh;
+    background-color: #DCDCDC;
+    margin-top: -80px;
+    z-index: 1000;
+    
+}   
+.policy p{
+    text-align: center;
+    margin-top: 37%;
+    padding-top: 10px;
+    font-size: 200%;
+    z-index: 1000;
+}
+.policy span{
+    color: #500000;
+    
+}
