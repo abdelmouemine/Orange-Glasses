@@ -573,18 +573,37 @@ text-align: center;
     }
 
 }
+@media screen and (max-width: 300px){
+
+   
+    .policy p{
+        position: absolute;
+        height: 510vh;
+        background-color: #DCDCDC;
+        top: 235%;
+        text-align: center;
+        font-size: 5%;
+        z-index: 100000;
+        margin-top: -37%;
+       
+        
+    }
+    .policy span{
+        color: #500000;
+        
+    }
+
+}
 
 /*end media*/
-footer{
+
+    
+   
+.policy p{
     height: 10vh;
     background-color: #DCDCDC;
-    margin-top: -80px;
-    z-index: 1000;
-    
-}   
-.policy p{
     text-align: center;
-    margin-top: 37%;
+    margin-top: 30%;
     padding-top: 10px;
     font-size: 200%;
     z-index: 1000;
